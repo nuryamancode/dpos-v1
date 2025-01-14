@@ -282,7 +282,7 @@
   --purple-light-white: rgba(132, 90, 223, 0.25);
   --pink-light-white: rgba(250, 54, 230, 0.25);
   --base: #fff;
-  --brand: var(--primary-600);
+  --brand: #FB611F;
   --button-secondary: var(--primary-50);
   --black: var(--dark-2);
   --white: var(--base);
@@ -1491,7 +1491,7 @@ th {
   color: var(--text-secondary-dark);
 }
 
-.text-base {
+.text-based {
   color: var(--white) !important;
 }
 
@@ -13593,7 +13593,10 @@ td.fc-header-center {
 }
 
 .auth-left {
-  background: linear-gradient(90deg, #ECF0FF 0%, #FAFBFF 100%);
+  background-image: url('../images/asset/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   width: 50%;
 }
 
@@ -14883,16 +14886,16 @@ td.fc-header-center {
 }
 
 .sidebar-menu-area:hover::-webkit-scrollbar-thumb {
-  background-color: var(--neutral-200);
+  background-color: transparent;
 }
 
 .sidebar-menu-area::-webkit-scrollbar {
   width: 6px;
-  background-color: var(--white);
+  background-color: transparent;
 }
 
 .sidebar-menu-area::-webkit-scrollbar-thumb {
-  background-color: var(--white);
+  background-color: transparent;
 }
 
 [data-theme=dark] .sidebar.active:hover .sidebar-logo img.light-logo {
@@ -14938,12 +14941,12 @@ td.fc-header-center {
   }
 }
 .sidebar-menu li.dropdown.open > a, .sidebar-menu li.dropdown.dropdown-open > a {
-  background-color: var(--brand);
-  color: #fff;
+  background-color: transparent;
+  color: var(--text-secondary-light);
 }
 
 .sidebar-menu li.dropdown.open > a:hover, .sidebar-menu li.dropdown.dropdown-open > a:hover {
-  color: #fff;
+  color: var(--brand);
 }
 
 .sidebar-menu li.dropdown.open > a::after, .sidebar-menu li.dropdown.dropdown-open > a::after {
@@ -14957,12 +14960,12 @@ td.fc-header-center {
 }
 
 .sidebar-menu li > a.active-page {
-  background-color: var(--brand);
-  color: #fff;
+  background-color: transparent;
+  color: var(--text-secondary-light);
 }
 
 .sidebar-menu li > a.active-page:hover {
-  color: #fff;
+  color: var(--brand);
 }
 
 .sidebar-menu li a {
@@ -15023,7 +15026,7 @@ td.fc-header-center {
   }
 }
 .sidebar-menu .sidebar-submenu li.active-page a {
-  background-color: var(--button-secondary);
+  background-color: transparent;
   color: var(--text-primary-light);
 }
 

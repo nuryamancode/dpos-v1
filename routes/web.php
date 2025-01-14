@@ -15,6 +15,6 @@ Route::controller(UserController::class)->group(function () {
     Route::get('/manage-user', 'index')->name('manage.user');
     Route::get('/create/manage-user', 'create')->name('create.manage.user');
 });
-Route::middleware('auth')->group(function () {
+// Route::middleware('auth')->group(function () {
 
-});
+// });

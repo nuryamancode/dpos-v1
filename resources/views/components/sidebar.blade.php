@@ -14,7 +14,7 @@
     <div class="sidebar-menu-area">
         <ul class="sidebar-menu" id="sidebar-menu">
             <li>
-                <a href="{{ route('dashboard') }}">
+                <a href="">
                     <iconify-icon icon="mage:email" class="menu-icon"></iconify-icon>
                     <span>Dashboard</span>
                 </a>
@@ -27,7 +27,7 @@
                 </a>
                 <ul class="sidebar-submenu">
                     <li>
-                        <a href="{{ route('manage.user') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> Manage
+                        <a href=""><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> Manage
                             User</a>
                     </li>
                     {{--  <li>

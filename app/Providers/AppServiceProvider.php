@@ -20,6 +20,5 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        Inertia::setRootView('layout.app');
     }
 }
